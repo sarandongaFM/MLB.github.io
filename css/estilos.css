@@ -45,6 +45,11 @@ h6 {
   justify-content: space-between;
   align-items: center;
 }
+.container--inline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
 .column {
   width: 100%;
 }
@@ -209,6 +214,16 @@ h6 {
   color: white;
   padding: 10px;
   margin: 10px auto;
+}
+.btn2 {
+  text-align: center;
+  text-decoration: none;
+  width: 120px;
+  background: #0d96a8;
+  color: white;
+  padding: 10px;
+  margin: 10px auto;
+  display: inline-block;
 }
 .group__title {
   font-family: "Pacifico", cursive;
