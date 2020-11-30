@@ -1,0 +1,62 @@
+@import url(iconos.css);
+@font-face {
+  font-family: "Pacifico";
+  src: url(../fonts/Pacifico-Regular.ttf);
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: bold;
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+  .menu {
+    background: #187a10;
+  }
+  .menu__link:hover {
+    background: #fdfdfd;
+    color: #187a10;
+  }
+  .menu__link--select {
+    background: #fdfdfd;
+    color: #187a10;
+  }
+  .group--color .container {
+    background: #187a10;
+  }
+  .btn {
+    background: #187a10;
+    display: inline-block;
+    color: #fdfdfd;
+  }
+  .today-special__price {
+    color: #187a10;
+  }
+  .group__title {
+    color: #187a10;
+  }
+  .container .main__title{
+    color: #fdfdfd;
+  }
+  .container .main__txt{
+    color: #fdfdfd;
+  }
+  .main__about__description p {
+    color: #187a10;
+  }
+  .main__about__description h3 {
+    color: #187a10;
+  }
+  p a:link {
+    color: #022902;
+  }
+  p a:visited {
+    color: #022902;
+  }
+  @media screen and (min-width: 480px) {
+    .main-nav {
+        background: #187a10;
+      }
+  }
