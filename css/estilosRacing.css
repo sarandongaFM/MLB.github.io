@@ -1,0 +1,74 @@
+@import url(iconos.css);
+@font-face {
+  font-family: "Pacifico";
+  src: url(../fonts/Pacifico-Regular.ttf);
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: bold;
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+  .menu {
+    background: #fdfdfd;
+    
+  }
+  .menu__link{
+    color:#4cd840;
+  }
+  .menu__link:hover {
+    background: #4cd840;
+    color: #fdfdfd;
+  }
+  .menu__link--select {
+    background: #4cd840;
+    color: #fdfdfd;
+  }
+  .group--color .container {
+    background: #4cd840;
+  }
+  .btn {
+    background: #4cd840;
+    display: inline-block;
+    color: #fdfdfd;
+  }
+  .cup {
+    background: #e21f1f;
+    color: yellow;
+  }
+  .special {
+    background: #000000;;
+    color: #ffffff;
+  }
+  .today-special__price {
+    color: #4cd840;
+  }
+  .group__title {
+    color: #4cd840;
+  }
+  .container .main__title{
+    color: #fdfdfd;
+  }
+  .container .main__txt{
+    color: #fdfdfd;
+  }
+  .main__about__description p {
+    color: #000000;
+  }
+  .main__about__description h3 {
+    color: #4cd840;
+  }
+  p a:link {
+    color: #4cd840;
+  }
+  p a:visited {
+    color: #4cd840;
+  }
+  @media screen and (min-width: 480px) {
+    .main-nav {
+        background: #fdfdfd;
+      }
+  }
